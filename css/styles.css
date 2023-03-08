@@ -1,0 +1,164 @@
+/****TAG SELECTORS
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'Rock Salt', cursive;
+****/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #393839;
+}
+
+h1 {
+    color: #F2A488;
+    font-size: 3.5rem;
+    margin: 50px auto 0;
+    font-family: 'Rock Salt', cursive;
+}
+
+h2 {
+    color: #F2A488;
+    font-family: 'Didact Gothic', sans-serif;
+    margin: 25px;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #F2A488;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+a {
+    color: #11999E;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #eec4b5;
+    border-top: 5px;
+    width: 2.5%;
+    margin: 100px auto;
+}
+
+/****CLASS SELECTORS****/
+
+.top-container {
+    background-color: #FBE5DC ;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 600px;
+}
+
+.middle-container {
+    position: relative;
+    padding-top: 30px;
+}
+
+.bottom-container {
+    background-color: #F2A488;
+    position: relative;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.star {
+    position: absolute;
+    right: 375px;
+    height: 150px;
+    bottom: 47px;
+}
+
+.planet {
+    position: absolute;
+    left: 325px;
+    top: 150px;
+    height: 150px;
+    margin: 20px 60px;   
+}
+
+.arch {
+    text-decoration: underline;
+}
+
+.intro {
+    width: 20%;
+    margin: auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.creative-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}    
+
+.cook-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    background: #F2A488;
+    background-image: -webkit-linear-gradient(top, #F2A488, #f0794e);
+    background-image: -moz-linear-gradient(top, #F2A488, #f0794e);
+    background-image: -ms-linear-gradient(top, #F2A488, #f0794e);
+    background-image: -o-linear-gradient(top, #F2A488, #f0794e);
+    background-image: linear-gradient(to bottom, #F2A488, #f0794e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #FBE5DC;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #FBE5DC;
+    background-image: -webkit-linear-gradient(top, #FBE5DC, #F2A488);
+    background-image: -moz-linear-gradient(top, #FBE5DC, #F2A488);
+    background-image: -ms-linear-gradient(top, #FBE5DC, #F2A488);
+    background-image: -o-linear-gradient(top, #FBE5DC, #F2A488);
+    background-image: linear-gradient(to bottom, #FBE5DC, #F2A488);
+    text-decoration: none;
+  }
+
+  .contact-me {
+    margin: 50px auto;
+    width: 50%;
+  }
+
+  .contact-message {
+    margin: 40px auto 60px;
+  }
+
+  .footer-link {
+    color: #f0794e;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 30px;
+  }
+
+  .copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
